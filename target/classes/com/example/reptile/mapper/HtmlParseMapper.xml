@@ -9,7 +9,7 @@
     </resultMap>
 
     <insert id="parseBidding" useGeneratedKeys="true" keyProperty="id">
-        insert into DouBanTOP (video_name,address)
+        insert into DouBanTOPk (video_name,address)
         values (#{videoName},#{address});
     </insert>
 </mapper>
